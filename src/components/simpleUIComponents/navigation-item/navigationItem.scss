@@ -1,0 +1,13 @@
+.nav-item {
+    display: flex;
+    justify-content:center;
+    border-left: 3px solid #ffe4d6;
+    margin-bottom: 70px;
+    .nav-icon {
+        width: 48px;
+        height: 48px;
+    }
+}
+.active-nav-item {
+    border-left: 3px solid #8964D7;
+}

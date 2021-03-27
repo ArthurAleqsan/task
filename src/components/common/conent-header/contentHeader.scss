@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding:60px;
+    .title {
+        font-size: 48px;
+        font-weight: 400;
+        
+    }
+    .filter-tabs-container {
+        max-width: 400px;
+        width: 40%;
+        align-items: center;
+        font-size: 24px;
+        font-weight: 700;
+    }
+}

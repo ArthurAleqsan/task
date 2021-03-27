@@ -1,0 +1,26 @@
+.content {
+    background: #FEF5EE;
+    height: 100vh;
+    overflow: hidden;
+    .content-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow-y: auto;
+    }
+    /* width */
+::-webkit-scrollbar {
+    width: 23px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background:#F2CBBF ;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #C4C4C4; 
+  }
+  
+}
